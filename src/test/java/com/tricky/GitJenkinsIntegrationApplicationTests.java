@@ -13,7 +13,7 @@ class GitJenkinsIntegrationApplicationTests {
 	public static Logger logger = LoggerFactory.getLogger(GitJenkinsIntegrationApplication.class);
 
 	@Test
-	void contextLoads() {
+	 contextLoads() {
 		logger.info("Test Case Executed....");
 		logger.info("Test Case Executed Second time....");
 		assertEquals(true, true);
