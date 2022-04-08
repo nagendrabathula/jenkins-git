@@ -14,7 +14,6 @@ class GitJenkinsIntegrationApplicationTests {
 
 	@Test
 	void contextLoads() {
-		logger.info("Test Case Executed....");
 		logger.info("Test Case Executed Second time....");
 		assertEquals(true, true);
 	}
